@@ -1,0 +1,74 @@
+
+.newtag span {
+    position: absolute;
+    font-family: 'Helvetica Neue Light', sans-serif;
+    font-size: 8px;
+    background-color: red;
+    padding: 2px 5px;
+    color: white;
+    text-align: center;
+    line-height: normal;
+    right: 55px;
+    float: right;
+    border-radius: 10px;
+    text-indent: 0;
+    top: 5px;
+}
+.newtag_2 span {
+    position: absolute;
+    font-family: 'Helvetica Neue Light', sans-serif;
+    font-size: 8px;
+    background-color: red;
+    padding: 2px 5px;
+    color: white;
+    text-align: center;
+    line-height: normal;
+    float: right;
+    border-radius: 10px;
+    text-indent: 0;
+    top: 5px;
+}
+#sidebar-wrapper .sidebar-nav li .nakwa li a {
+    position: relative;
+}
+.pad20 {
+    padding: 20px;
+}
+
+#pooh, #popb, #popm, #yum {
+    margin: 15px 0;
+    border: 1px solid #ccc;
+}
+#pooh th, #pooh td, #popb th, #popb td, #popm th, #popm td, #yum th, #yum td {
+    text-align: center;
+    font-family: 'Helvetica Neue Light', sans-serif;
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+#pooh th.pkg, #pooh thead {
+    background-color: #ed2028;
+    color: white;
+}
+#popb th.pkg, #popb thead {
+    background-color: #d41968;
+    color: white;
+}
+#popm th.pkg, #popm thead {
+    background-color: #9c80d7;
+    color: white;
+}
+#yum th.pkg, #yum thead {
+    background-color: #f59523;
+    color: white;
+}
+#pooh td.bv, #popb td.bv, #popm td.bv, #yum td.bv {
+    background-color: #eee;
+}
+.bv-tag {
+    
+}
+@media screen and (max-width: 480px) {
+   .overscroll {
+        overflow: scroll;
+    } 
+}
