@@ -86,8 +86,4 @@
   .overscroll {
     overflow: scroll;
   }
-
-  .shaping-wrap {
-    bottom: -6rem;
-  }
 }
