@@ -18,6 +18,19 @@ $('.toggle').click(function(e) {
     }
 });
 
+let innerHeight = window.innerHeight;
+let overlay = document.getElementById("dn2");
+let bgHome = document.getElementById("home_awal");
+let dn1 = document.getElementById("dn1");
+
+function heightHome (){
+    overlay.style.height = innerHeight + 'px';
+    bgHome.style.height = innerHeight + 'px';
+    dn1.style.height = innerHeight + 'px';
+    
+}
+
+heightHome();
 
 
 // js sidebar menu 
