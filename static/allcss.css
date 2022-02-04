@@ -46,7 +46,6 @@ body,
 html {
   overflow-x: hidden;
   background-color: white;
-  height: 100%;
 }
 .videoContainer {
   position: fixed;
@@ -773,9 +772,9 @@ td {
   .navbar a.contact-us {
     padding: 0.6rem 1rem;
   }
-  /* .shaping-wrap {
+  .shaping-wrap {
     bottom: -6rem;
-  } */
+  }
 }
 @-webkit-keyframes bounce {
   from,
