@@ -154,7 +154,7 @@ html {
   position: absolute;
   display: block;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   opacity: 0.88;
 }
 #home_awal {
