@@ -37,19 +37,16 @@
   --darkblue: #004381;
   --mm-color-border: rgba(255, 255, 255, 0.2);
 }
+
 :root body {
   margin: 0;
   font-size: 1.6rem;
 }
-
-body {
-  height: 100%;
-}
-
 body,
 html {
   overflow-x: hidden;
   background-color: white;
+  height: 100%;
 }
 .videoContainer {
   position: fixed;
@@ -776,6 +773,9 @@ td {
   .navbar a.contact-us {
     padding: 0.6rem 1rem;
   }
+  /* .shaping-wrap {
+    bottom: -6rem;
+  } */
 }
 @-webkit-keyframes bounce {
   from,
