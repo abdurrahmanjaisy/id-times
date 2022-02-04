@@ -49,10 +49,13 @@ let iframe = document.getElementById("iframe_idn");
         iframe.style.height = (iframe.contentWindow.document.body.scrollHeight + 40) + 'px';
     }
 const ro = new ResizeObserver(entries => {
+    if ( iframe.style.height == (iframe.contentWindow.document.body.scrollHeight + 40)) {
+        return ;
+    }
     iframe.style.height = (iframe.contentWindow.document.body.scrollHeight + 40) + 'px';
 })
 ro.observe(iframe)
-ro.observe(timeline)
+// ro.observe(timeline)
 
 
 function showhideMenu2() {
