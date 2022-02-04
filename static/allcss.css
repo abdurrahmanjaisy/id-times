@@ -124,7 +124,7 @@ html {
 }
 .shaping-wrap {
   position: absolute;
-  top: auto;
+  /* top: auto; */
   bottom: 0;
   left: 0;
   right: 0;
@@ -772,9 +772,9 @@ td {
   .navbar a.contact-us {
     padding: 0.6rem 1rem;
   }
-  .shaping-wrap {
+  /* .shaping-wrap {
     bottom: -8.5rem;
-  }
+  } */
 }
 @-webkit-keyframes bounce {
   from,
